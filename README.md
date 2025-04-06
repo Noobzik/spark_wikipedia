@@ -5,6 +5,7 @@ Dans cet exercice, nous allons utiliser nos données textuelles complètes de Wi
 Vous réaliserez cet exercice sur un seul nœud (votre ordinateur).
 
 Mais avant, vous devez télécharger le Dataset se trouvant à cette addresse : https://moocs.scala-lang.org/~dockermoocs/bigdata/wikipedia-grading.dat
+Ce Fichier sera stocké dans le dossier resources
 ### Configuration de Spark
 
 Pour des raisons de logistique simplifiée, nous allons exécuter Spark en mode "local". Cela signifie que votre application Spark complète sera exécutée sur un seul nœud, localement, sur votre ordinateur portable.
