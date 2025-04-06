@@ -1,7 +1,10 @@
 package wikipedia
 
 import org.apache.spark.SparkConf
-import org.apache.log4j.{Level, Logger}
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.log4j.{Logger, Level}
+
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.SparkSession._
