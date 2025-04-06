@@ -18,6 +18,6 @@ trait WikipediaRankingInterface {
   def rankLangsReduceByKey(langs: List[String], rdd: RDD[WikipediaArticle]): List[(String, Int)]
   def rankLangsUsingIndex(index: RDD[(String, Iterable[WikipediaArticle])]): List[(String, Int)]
   def langs: List[String]
-  def sc: SparkSession
+  def sc: SparkContext
   def wikiRdd: RDD[WikipediaArticle]
 }
