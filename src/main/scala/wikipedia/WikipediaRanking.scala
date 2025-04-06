@@ -23,7 +23,7 @@ object WikipediaRanking extends WikipediaRankingInterface {
   Logger.getLogger("org.apache.spark").setLevel(Level.ERROR)
   if (isWin) System.setProperty("hadoop.home.dir", System.getProperty("user.dir") + "\\winutils\\hadoop-3.3.1")
 
-  val langs = List(
+  val langs : List[String] = List(
     "JavaScript", "Java", "PHP", "Python", "C#", "C++", "Ruby", "CSS",
     "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy")
 
