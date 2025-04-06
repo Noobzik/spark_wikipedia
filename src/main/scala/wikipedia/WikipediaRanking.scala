@@ -25,7 +25,7 @@ object WikipediaRanking extends WikipediaRankingInterface {
     "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy")
 
   val conf: SparkConf = ???
-  val sc: SparkSession = ???
+  val sc: SparkContext = ???
   // Hint: use a combination of `sc.parallelize`, `WikipediaData.lines` and `WikipediaData.parse`
   val wikiRdd: RDD[WikipediaArticle] = ???
 
